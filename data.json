@@ -1,6 +1,8 @@
 {
-    "project": "Flask To-Do Application",
-    "student": "Khushi Daharwal",
-    "message": "Welcome to my Flask API",
-    "status": "success"
+  "project": "Flask To-Do Application",
+  "student": "Khushi Daharwal",
+  "message": "JSON updated in khushi5555_new branch",
+  "status": "success",
+  "version": "2.0",
+  "task": "Git Merge Conflict Resolution"
 }
