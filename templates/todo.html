@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            padding: 40px;
+        }
+        .container {
+            max-width: 450px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px #ddd;
+        }
+        input, textarea, button {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px;
+            margin: 10px 0;
+        }
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>My To-Do Application</h2>
+
+        <form action="/submittodoitem" method="POST">
+            <label>Item Name</label>
+            <input type="text" name="itemName" required>
+
+            <label>Item Description</label>
+            <textarea name="itemDescription" required></textarea>
+
+            <button type="submit">Add To-Do Item</button>
+        </form>
+    </div>
+</body>
+</html>
